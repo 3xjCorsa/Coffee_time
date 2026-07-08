@@ -1,13 +1,76 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Загальний контейнер */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка сторінки */
+
+.header {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__item-link {
+    color: #ffffff;
+    padding: 0 16px;
+}
+
+.header__social {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+/* Основний розділ */
+
+main {
+    width: 100%;
+    flex: 1;
+}
+
 .section-main {
     position: relative;
-    min-height: 800px;
+    /* min-height: 800px; */
+    min-height: 1080px;
     background-image: linear-gradient(180deg, rgba(20,12,8,0.55) 0%, rgba(20,12,8,0.25) 40%, rgba(20,12,8,0.55) 100%), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1600&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 8vw;
+    /* padding: 0 8vw; */
     color: #ffffff;
 }
 
@@ -56,11 +119,43 @@
 
 @media (max-width: 600px) {
     .section-main {
-       padding: 0 6vw;
-       min-height: 640px;
+        padding: 0 6vw;
+        min-height: 640px;
     }
 
     .hero-button {
         padding: 16px 34px;
     }
+}
+
+/* Footer */
+footer {
+    background-color: #26130D;
+    width: 100%;
+}
+
+.footer {
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__box-info {
+    max-width: 515px;
+}
+
+.footer__menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer__item-link {
+    color: #ffffff;
+    padding: 0 16px;
+}
+
+.footer__box-info p {
+    margin-top: 16px;
+    color: white
 }
