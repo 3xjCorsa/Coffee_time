@@ -244,3 +244,78 @@ footer {
         height: 360px;
     }
 }
+
+.section-mission {
+    background-color: #ded9d1;
+    background-image: url('./assets/img/marble-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.third-section {
+    padding: 80px 8vw 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.mission-title {
+    font-family: 'Times New Roman', Georgia, serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #a56a3a;
+    font-size: clamp(28px, 3vw, 40px);
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.mission-columns {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 24px;
+}
+
+.mission-paragraph {
+    flex: 1;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #2b1a12;
+}
+
+.mission-link {
+    display: inline-block;
+    font-family: 'Times New Roman', Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #a56a3a;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: opacity 0.2s ease;
+}
+
+.mission-link:hover {
+    opacity: 0.7;
+}
+
+.mission-img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .third-section {
+        padding: 60px 6vw 70px;
+    }
+    .mission-columns {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .mission-img {
+        max-height: 400px;
+    }
+}
