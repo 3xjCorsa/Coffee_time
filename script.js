@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Створюємо новий таймер: рівно через 2600 мілісекунд (2.6 секунди) плашка сховається
     toastTimer = setTimeout(function() {
       toast.classList.remove('show'); // Видаляємо клас, і плашка плавно зникає
-    }, 2600);
+    }, 3000);
   }
 
   // ---------- 8. ФОРМА: Бронювання столика ----------
