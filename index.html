@@ -3,104 +3,319 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/normalize.css">
     <link rel="stylesheet" href="style.css">
-    <title>Coffee time</title>
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div class="header container">
-            <div class="header__box-logo">
-                <img src="./assets/icon/Logo.svg" alt="logo">
-            </div>
-            <nav class="header__nav">
-                <ul class="header__menu">
-                    <li class="header__item">
-                        <a href="" class="header__item-link">About</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="" class="header__item-link">Detail</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="" class="header__item-link">Menu</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="" class="header__item-link">Book</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="" class="header__item-link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__social">
-                <a href="" class="header__social-link">
-                    <img src="./assets/icon/icon-tg.svg" alt="viber" class="header__social-icon">
-                </a>
-                <a href="" class="header__social-link">
-                    <img src="./assets/icon/icon-inst.svg" alt="instagram" class="header__social-icon">
-                </a>
-            </div>
-        </div>
-    </header>
 
-    <main>
-        <section class="section-main">
+    <div class="page">
+
+        <header class="header" id="nav">
             <div class="container">
-                <div class="first-section">
-                    <h1 class="hero-title">Welcome to the world of coffee delight</h1>
-                    <p class="hero-subtitle">Making the most flavourful coffee for you, brewed with care and roasted to perfection every single day.</p>
-                    <button class="hero-button">Let's go</button>
-                </div> 
-            </div> 
-        </section>
-        <section class="section-about">
-            <div class="second-section">
-                <div class="about-text">
-                    <h2 class="about-title">A place where time stops</h2>
-                    <p class="about-paragraph">We strive to create an atmosphere that allows people to enjoy flavoured coffee in a relaxed and professional environment. We have comfortable places to relax and work, where you can focus and spend your time in a positive way.</p>
-                    <p class="about-paragraph">We use only the highest quality ingredients. We also offer fresh baked goods and snacks that pair perfectly with your drink.</p>
-                    <p class="about-paragraph">We invite you to visit our coffee shop and enjoy the atmosphere. We are sure you will appreciate our high standards of quality and service.</p>
-                    <a href="" class="about-link">read more →</a>
-                </div>
-
-                <div class="about-images">
-                    <img src="https://www.figma.com/design/IQghTyjjS71oofrRIj7kiI/%D0%A1%D0%90%D0%A8%D0%90--Copy-?node-id=1-157&t=EEH0Chfw55pF0cJa-4" alt="Coffee shop interior" class="about-img about-img-large">
-                    <img src="https://www.figma.com/design/IQghTyjjS71oofrRIj7kiI/%D0%A1%D0%90%D0%A8%D0%90--Copy-?node-id=1-158&t=EEH0Chfw55pF0cJa-4" alt="">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer container">
-            <div class="footer__box-logo">
-                <img src="./assets/icon/Logo.svg" alt="Logo">
-            </div>
-
-            <div class="footer__box-info">
-                <nav class="footer__nav">
-                    <ul class="footer__menu">
-                        <li class="footer__item">
-                            <a href="" class="footer__item-link">About</a>
+                <a href="#"class="logo">
+                    <img src="./assets/icons/Logo.svg" alt="Logo">
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">About</a>
                         </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__item-link">Detail</a>
+                        <li>
+                            <a href="#">Detail</a>
                         </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__item-link">Menu</a>
+                        <li>
+                            <a href="#">Menu</a>
                         </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__item-link">Book</a>
+                        <li>
+                            <a href="#">Book</a>
                         </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__item-link">Contact</a>
+                        <li>
+                            <a href="#">Contact</a>
                         </li>
                     </ul>
                 </nav>
-                <p>© 2024 The Gantry London. © 2024 Hilton <br>
-                    All rights reserved</p>
+                <div class="links-to-social-networks">
+                    <a href="#">
+                        <img src="./assets/icons/phone.svg" alt="phone">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/icons/instagram.svg" alt="instagram">
+                    </a>
+                </div>
             </div>
-        </div>
-    </footer>
+        </header>
+
+        <main class="main">
+            <section class="main_screen">
+                <div class="container">
+                    <h1>Welcome to the world of<br>coffee delight</h1>
+                    <p>Making the most flavourful coffee</p>
+                    <a href="#" class="link-btn">Let's go</a>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <div class="about__wrapper-text">
+                        <h2>A place where time stops</h2>
+                        <p>We strive to create an atmosphere that allows people to enjoy flavoured coffee in a relaxed and professional environment. We have comfortable places to relax and work, where you can focus and spend your time in a positive way.</p>
+                        <p>We use only the highest quality ingredients. We also offer fresh baked goods and snacks that pair perfectly with your drink.</p>
+                        <p>We invite you to visit our coffee shop and enjoy the atmosphere. We are sure you will appreciate our high standards of quality and service.</p>
+                        <a href="#" class="read-more">read more</a>
+                    </div>
+                    <div class="about__wrapper-img">
+                        <img src="./assets/img/section_1_img_1.jpg" alt="img_1">
+                        <img src="./assets/img/section_1_img_2.jpg" alt="img_2">
+                    </div>
+                </div>
+            </section>
+
+            <section class="detail">
+                <div class="container">
+                    <h2 class="detail_title">Our mission</h2>
+                    <div class="detail__box-text">
+                        <p>Our mission is to provide guests with top class service and to fulfil their requirements and expectations. Our baristas have extensive knowledge and experience in the art of coffee making. They carefully select the finest coffee beans to achieve the perfect balance of flavour and aroma in every cup.</p>
+                        <p>We strive to create an atmosphere that allows people to enjoy flavourful coffee in a relaxed and professional environment. We have comfortable places to relax and work where you can focus and spend quality time. We use only the highest quality ingredients.</p>
+                    </div>
+                    <a href="#" class="read-more">read more</a>
+                    <div class="detail__img">
+                        <img src="./assets/img/Barista.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-menu">
+                <div class="section-menu__wrapper">
+                    <div class="section-menu__wrapper-img">
+                        <img src="/assets/img/Image_detail.jpg" alt="">
+                    </div>
+                    <div class="section-menu__wrapper-text">
+                        <h2>A coffee house for <br>connoisseurs of taste</h2>
+                        <ul class="section-menu__ul">
+                            <li class="section-menu__li">
+                                <span>Ingredients:</span>
+                                <p>Blend of 100% Arabica<br>Brazil, Guatemala, Ethiopia</p>
+                            </li>
+                            <li class="section-menu__li">
+                                <span>Tastearoma:</span>
+                                <p>Almonds, walnuts, milk and<br>dark chocolate, hazelnuts</p>
+                            </li>
+                            <li class="section-menu__li">
+                                <span>Type of Arabica:</span>
+                                <p>Catuai, Catucai, Bourbon,<br>Heirloom</p>
+                            </li>
+                            <li class="section-menu__li">
+                                <span>Degree of roasting:</span>
+                                <p>Espresso roast</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-cards">
+                <div class="container">
+                    <h2>Variety of flavours on our menu</h2>
+                    <div class="section-cards__wrapper-card">
+                        <div class="section-cards__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Espresso.jpg" alt="">
+                            </div>
+                            <h3 class="section-cards__h3">Espresso</h3>
+                            <p class="section-cards__text">An intense and rich coffee drink extracted from freshly roasted coffee beans.</p>
+                            <p class="section-cards__text">Espresso has a rich flavour and strong aroma, ideal for lovers of full-bodied coffee.</p>
+                        </div>
+                        <div class="section-cards__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Latte.jpg" alt="">
+                            </div>
+                            <h3 class="section-cards__h3">Latte</h3>
+                            <p class="section-cards__text">A delicate and smooth coffee drink consisting of espresso and hot milk.</p>
+                            <p class="section-cards__text">Latte has a pleasant milky flavour and is decorated with latte art to visually decorate your cup.</p>
+                        </div>
+                        <div class="section-cards__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Cappuccino.jpg" alt="">
+                            </div>
+                            <h3 class="section-cards__h3">Cappuccino</h3>
+                            <p class="section-cards__text">A combination of espresso, hot milk and lush milk foam.</p>
+                            <p class="section-cards__text">It has a balanced flavour with notes of coffee and milk, and its silky texture is a pleasure to drink.</p>
+                        </div>
+                        <div class="section-cards__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Flat_White.jpg" alt="">
+                            </div>
+                            <h3 class="section-cards__h3">Flat White</h3>
+                            <p class="section-cards__text">A smooth and velvety coffee drink consisting of espresso and hot milk.</p>
+                            <p class="section-cards__text">Flat White has a balanced flavour of coffee and milk, providing a pleasant coffee flavour.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-group-book">
+                <div class="container">
+                    <h2 class="section-group-book__h2">Join us on our coffee journey</h2>
+                    <a href="#" class="link-btn">Book a table</a>
+                </div>
+            </section>
+
+            <section class="section-order" id="sectionOrder">
+                <div class="container">
+                    <h2>Complete your order</h2>
+                    <div class="section-order__wrapper-card">
+                        <div class="section-cards__card section-order__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Espresso.jpg" alt="">
+                            </div>
+                            <div class="section-cards__offer">
+                                <h3 class="section-cards__h3">Espresso</h3>
+                                <p class="section-cards__price">$3.50</p>
+                            </div>
+                            <div class="add-row">
+                                <div class="stepper">
+                                    <button type="button" data-act="dec" data-id="espresso">−</button>
+                                    <span id="qty-espresso">1</span>
+                                    <button type="button" data-act="inc" data-id="espresso">+</button>
+                                </div>
+                                <button type="button" class="add-btn" data-add="espresso">Add</button>
+                            </div>
+                        </div>
+                        <div class="section-cards__card section-order__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Latte.jpg" alt="">
+                            </div>
+                            <div class="section-cards__offer">
+                                <h3 class="section-cards__h3">Latte</h3>
+                                <p class="section-cards__price">$4.50</p>
+                            </div>
+                            <div class="add-row">
+                                <div class="stepper">
+                                    <button type="button" data-act="dec" data-id="latte">−</button>
+                                    <span id="qty-latte">1</span>
+                                    <button type="button" data-act="inc" data-id="latte">+</button>
+                                </div>
+                                <button type="button" class="add-btn" data-add="latte">Add</button>
+                            </div>
+                        </div>
+                        <div class="section-cards__card section-order__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Cappuccino.jpg" alt="">
+                            </div>
+                            <div class="section-cards__offer">
+                                <h3 class="section-cards__h3">Cappuccino</h3>
+                                <p class="section-cards__price">$4.20</p>
+                            </div>
+                            <div class="add-row">
+                                <div class="stepper">
+                                    <button type="button" data-act="dec" data-id="cappuccino">−</button>
+                                    <span id="qty-cappuccino">1</span>
+                                    <button type="button" data-act="inc" data-id="cappuccino">+</button>
+                                </div>
+                                <button type="button" class="add-btn" data-add="cappuccino">Add</button>
+                            </div>
+                        </div>
+                        <div class="section-cards__card section-order__card">
+                            <div class="section-cards__box-img">
+                                <img src="./assets/img/Flat_White.jpg" alt="">
+                            </div>
+                            <div class="section-cards__offer">
+                                <h3 class="section-cards__h3">Flat White</h3>
+                                <p class="section-cards__price">$4.80</p>
+                            </div>
+                            <div class="add-row">
+                                <div class="stepper">
+                                    <button type="button" data-act="dec" data-id="flatwhite">−</button>
+                                    <span id="qty-flatwhite">1</span>
+                                    <button type="button" data-act="inc" data-id="flatwhite">+</button>
+                                </div>
+                                <button type="button" class="add-btn" data-add="flatwhite">Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order-panel">
+                        <div class="cart-list" id="cartList">
+                            <h3>Your order</h3>
+                            <div id="cartItems"><p class="cart-empty">No drinks added yet — pick something from the menu above.</p></div>
+                            <div class="cart-total" id="cartTotal" style="display:none;">
+                                <span>Total</span>
+                                <strong id="cartTotalValue">$0.00</strong>
+                            </div>
+                        </div>
+                        <div class="book-panel" id="book">
+                            <h3>Book a table</h3>
+                            <p class="sub">Reserve your seat and we'll have your order — if any — waiting for you.</p>
+                            <form id="bookForm">
+                                <div class="field">
+                                    <label>Full name</label>
+                                    <input type="text" id="bName" placeholder="Jane Doe" required="">
+                                </div>
+                                <div class="field-row">
+                                    <div class="field">
+                                        <label for="bDate">Date of visit</label>
+                                        <input type="date" id="bDate" required="">
+                                    </div>
+                                    <div class="field">
+                                        <label for="bTime">Time</label>
+                                        <input type="time" id="bTime" required="">
+                                    </div>
+                                </div>
+                                <div class="field-row">
+                                    <div class="field">
+                                        <label for="bGuests">Guests</label>
+                                        <select id="bGuests">
+                                            <option>1</option><option selected="">2</option><option>3</option><option>4</option><option>5+</option>
+                                        </select>
+                                    </div>
+                                    <div class="field">
+                                        <label>Phone</label>
+                                        <input type="tel" id="bPhone" placeholder="+1 555 000 0000" required="">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn">Book a table</button>
+                                <div class="confirm-msg" id="confirmMsg"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toast" id="toast"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <a href="#"></a>
+                <div class="wrapper">
+                    <nav class="footer__nav">
+                        <ul class="footer__ul">
+                            <li class="footer__elem">
+                                <a href="#" class="footer__link">About</a>
+                            </li>
+                            <li class="footer__elem">
+                                <a href="#" class="footer__link">Detail</a>
+                            </li>
+                            <li class="footer__elem">
+                                <a href="#" class="footer__link">Menu</a>
+                            </li>
+                            <li class="footer__elem">
+                                <a href="#" class="footer__link">Book</a>
+                            </li>
+                            <li class="footer__elem">
+                                <a href="#" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <p class="footer__p">&copy; 2024 The Gantry London. &copy; 2024 Hilton</p>
+                    <p class="footer__p">All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
 </body>
 </html>
