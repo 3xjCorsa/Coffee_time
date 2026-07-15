@@ -101,7 +101,7 @@ h1 {
     font-family: 'Merienda', cursive;
     font-weight: 600;
 }
-
+/*  */
 h2{
     color: var(--Light_Brown);
     font-size: var(--h2);
@@ -897,4 +897,30 @@ li a {
         min-height: 320px;
         padding: 0 6vw;
     }
+}
+
+/* ---------- Toast notification ---------- */
+.toast {
+    position: fixed;
+    bottom: -100px; /* Спочатку ховаємо за межами екрана */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--Dark_Brown);
+    color: var(--White);
+    padding: 16px 32px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: bottom 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+/* Клас, який додається через JS */
+.toast.show {
+    bottom: 40px; /* Плавно підіймається вгору */
+    opacity: 1;
 }
